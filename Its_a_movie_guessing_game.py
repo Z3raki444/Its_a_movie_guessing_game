@@ -8,7 +8,7 @@ def play_game():
     # Read the movies from movies.txt
     try:
         # Open the file in read mode and read all lines into a list
-        with open(r"C:\Users\prave\OneDrive\Desktop\git_pushing\Its_a_movie_guessing_game\movies.txt", "r") as file:
+        with open(r"Its_a_movie_guessing_game\movies.txt", "r") as file:
             movies = [line.strip() for line in file.readlines()]  # Strip newlines and spaces
     except FileNotFoundError:
         # Handle the case where the file is not found
